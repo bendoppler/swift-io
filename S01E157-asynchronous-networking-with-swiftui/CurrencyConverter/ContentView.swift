@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import Combine
 import TinyNetworking
 
 struct FixerData: Codable {
@@ -17,24 +18,19 @@ let latest = Endpoint<FixerData>(json: .get, url: URL(string: "http://data.fixer
 
 import Combine
 
-final class Resource<A>: BindableObject {
-    let didChange = PassthroughSubject<A?, Never>()
+final class Resource<A>: ObservableObject {
     let endpoint: Endpoint<A>
-    var value: A? {
-        didSet {
-            sleep(2)
-            DispatchQueue.main.async {
-                self.didChange.send(self.value)
-            }
-        }
-    }
+    @Published var value: A?
     init(endpoint: Endpoint<A>) {
         self.endpoint = endpoint
         reload()
     }
+
     func reload() {
         URLSession.shared.load(endpoint) { result in
-            self.value = try? result.get()
+            DispatchQueue.main.async {
+                self.value = try? result.get()
+            }
         }
     }
 }
@@ -61,17 +57,17 @@ struct Converter: View {
     var body: some View {
         VStack {
             HStack {
-                TextField($text).frame(width: 100)
+                TextField(LocalizedStringKey("us"), text: $text).frame(width: 100)
                 Text("EUR")
                 Text("=")
                 Text(output)
                 Text(selection)
             }
-            Picker(selection: $selection, label: Text("")) {
-                ForEach(self.rates.keys.sorted().identified(by: \.self)) { key in
+            Picker(LocalizedStringKey("us"), selection: $selection, content: {
+                ForEach(self.rates.keys.sorted(), id: \.self) { key in
                     Text(key)
                 }
-            }
+            })
         }
     }
 }
@@ -89,7 +85,7 @@ struct ProgressIndicator: NSViewRepresentable {
 }
 
 struct ContentView : View {
-    @ObjectBinding var resource = Resource(endpoint: latest)
+    @ObservedObject var resource = Resource<FixerData>(endpoint: latest)
     var body: some View {
         Group {
             if resource.value == nil {
