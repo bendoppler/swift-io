@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LibPQ",
+        "repositoryURL": "https://github.com/objcio/libpq",
+        "state": {
+          "branch": "master",
+          "revision": "f88caf3f299e991fec854e3e1bc23ca633044a7f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

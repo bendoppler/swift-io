@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8395538E2728047D0087760E /* ScrollingLargeGraphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395538D2728047D0087760E /* ScrollingLargeGraphApp.swift */; };
+		839553902728047D0087760E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395538F2728047D0087760E /* ContentView.swift */; };
+		839553922728047F0087760E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839553912728047F0087760E /* Assets.xcassets */; };
+		839553952728047F0087760E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839553942728047F0087760E /* Preview Assets.xcassets */; };
+		839553A02728047F0087760E /* ScrollingLargeGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395539F2728047F0087760E /* ScrollingLargeGraphTests.swift */; };
+		839553AA2728047F0087760E /* ScrollingLargeGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839553A92728047F0087760E /* ScrollingLargeGraphUITests.swift */; };
+		839553AC2728047F0087760E /* ScrollingLargeGraphUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839553AB2728047F0087760E /* ScrollingLargeGraphUITestsLaunchTests.swift */; };
+		839553B92728053C0087760E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839553B82728053C0087760E /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8395539C2728047F0087760E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839553822728047D0087760E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839553892728047D0087760E;
+			remoteInfo = ScrollingLargeGraph;
+		};
+		839553A62728047F0087760E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839553822728047D0087760E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839553892728047D0087760E;
+			remoteInfo = ScrollingLargeGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8395538A2728047D0087760E /* ScrollingLargeGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingLargeGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8395538D2728047D0087760E /* ScrollingLargeGraphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingLargeGraphApp.swift; sourceTree = "<group>"; };
+		8395538F2728047D0087760E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		839553912728047F0087760E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839553942728047F0087760E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		839553962728047F0087760E /* ScrollingLargeGraph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScrollingLargeGraph.entitlements; sourceTree = "<group>"; };
+		8395539B2728047F0087760E /* ScrollingLargeGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingLargeGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8395539F2728047F0087760E /* ScrollingLargeGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingLargeGraphTests.swift; sourceTree = "<group>"; };
+		839553A52728047F0087760E /* ScrollingLargeGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingLargeGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839553A92728047F0087760E /* ScrollingLargeGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingLargeGraphUITests.swift; sourceTree = "<group>"; };
+		839553AB2728047F0087760E /* ScrollingLargeGraphUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingLargeGraphUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		839553B82728053C0087760E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839553872728047D0087760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839553982728047F0087760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839553A22728047F0087760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839553812728047D0087760E = {
+			isa = PBXGroup;
+			children = (
+				8395538C2728047D0087760E /* ScrollingLargeGraph */,
+				8395539E2728047F0087760E /* ScrollingLargeGraphTests */,
+				839553A82728047F0087760E /* ScrollingLargeGraphUITests */,
+				8395538B2728047D0087760E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8395538B2728047D0087760E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8395538A2728047D0087760E /* ScrollingLargeGraph.app */,
+				8395539B2728047F0087760E /* ScrollingLargeGraphTests.xctest */,
+				839553A52728047F0087760E /* ScrollingLargeGraphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8395538C2728047D0087760E /* ScrollingLargeGraph */ = {
+			isa = PBXGroup;
+			children = (
+				8395538D2728047D0087760E /* ScrollingLargeGraphApp.swift */,
+				8395538F2728047D0087760E /* ContentView.swift */,
+				839553B82728053C0087760E /* Model.swift */,
+				839553912728047F0087760E /* Assets.xcassets */,
+				839553962728047F0087760E /* ScrollingLargeGraph.entitlements */,
+				839553932728047F0087760E /* Preview Content */,
+			);
+			path = ScrollingLargeGraph;
+			sourceTree = "<group>";
+		};
+		839553932728047F0087760E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				839553942728047F0087760E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8395539E2728047F0087760E /* ScrollingLargeGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				8395539F2728047F0087760E /* ScrollingLargeGraphTests.swift */,
+			);
+			path = ScrollingLargeGraphTests;
+			sourceTree = "<group>";
+		};
+		839553A82728047F0087760E /* ScrollingLargeGraphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				839553A92728047F0087760E /* ScrollingLargeGraphUITests.swift */,
+				839553AB2728047F0087760E /* ScrollingLargeGraphUITestsLaunchTests.swift */,
+			);
+			path = ScrollingLargeGraphUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839553892728047D0087760E /* ScrollingLargeGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839553AF2728047F0087760E /* Build configuration list for PBXNativeTarget "ScrollingLargeGraph" */;
+			buildPhases = (
+				839553862728047D0087760E /* Sources */,
+				839553872728047D0087760E /* Frameworks */,
+				839553882728047D0087760E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingLargeGraph;
+			productName = ScrollingLargeGraph;
+			productReference = 8395538A2728047D0087760E /* ScrollingLargeGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8395539A2728047F0087760E /* ScrollingLargeGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839553B22728047F0087760E /* Build configuration list for PBXNativeTarget "ScrollingLargeGraphTests" */;
+			buildPhases = (
+				839553972728047F0087760E /* Sources */,
+				839553982728047F0087760E /* Frameworks */,
+				839553992728047F0087760E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8395539D2728047F0087760E /* PBXTargetDependency */,
+			);
+			name = ScrollingLargeGraphTests;
+			productName = ScrollingLargeGraphTests;
+			productReference = 8395539B2728047F0087760E /* ScrollingLargeGraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839553A42728047F0087760E /* ScrollingLargeGraphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839553B52728047F0087760E /* Build configuration list for PBXNativeTarget "ScrollingLargeGraphUITests" */;
+			buildPhases = (
+				839553A12728047F0087760E /* Sources */,
+				839553A22728047F0087760E /* Frameworks */,
+				839553A32728047F0087760E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839553A72728047F0087760E /* PBXTargetDependency */,
+			);
+			name = ScrollingLargeGraphUITests;
+			productName = ScrollingLargeGraphUITests;
+			productReference = 839553A52728047F0087760E /* ScrollingLargeGraphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839553822728047D0087760E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					839553892728047D0087760E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					8395539A2728047F0087760E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 839553892728047D0087760E;
+					};
+					839553A42728047F0087760E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 839553892728047D0087760E;
+					};
+				};
+			};
+			buildConfigurationList = 839553852728047D0087760E /* Build configuration list for PBXProject "ScrollingLargeGraph" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839553812728047D0087760E;
+			productRefGroup = 8395538B2728047D0087760E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839553892728047D0087760E /* ScrollingLargeGraph */,
+				8395539A2728047F0087760E /* ScrollingLargeGraphTests */,
+				839553A42728047F0087760E /* ScrollingLargeGraphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839553882728047D0087760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839553952728047F0087760E /* Preview Assets.xcassets in Resources */,
+				839553922728047F0087760E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839553992728047F0087760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839553A32728047F0087760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839553862728047D0087760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839553902728047D0087760E /* ContentView.swift in Sources */,
+				839553B92728053C0087760E /* Model.swift in Sources */,
+				8395538E2728047D0087760E /* ScrollingLargeGraphApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839553972728047F0087760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839553A02728047F0087760E /* ScrollingLargeGraphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839553A12728047F0087760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839553AA2728047F0087760E /* ScrollingLargeGraphUITests.swift in Sources */,
+				839553AC2728047F0087760E /* ScrollingLargeGraphUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8395539D2728047F0087760E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839553892728047D0087760E /* ScrollingLargeGraph */;
+			targetProxy = 8395539C2728047F0087760E /* PBXContainerItemProxy */;
+		};
+		839553A72728047F0087760E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839553892728047D0087760E /* ScrollingLargeGraph */;
+			targetProxy = 839553A62728047F0087760E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		839553AD2728047F0087760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839553AE2728047F0087760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		839553B02728047F0087760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScrollingLargeGraph/ScrollingLargeGraph.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollingLargeGraph/Preview Content\"";
+				DEVELOPMENT_TEAM = 58PSC9526Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.objc.ScrollingLargeGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		839553B12728047F0087760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScrollingLargeGraph/ScrollingLargeGraph.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollingLargeGraph/Preview Content\"";
+				DEVELOPMENT_TEAM = 58PSC9526Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.objc.ScrollingLargeGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		839553B32728047F0087760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58PSC9526Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.objc.ScrollingLargeGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingLargeGraph.app/Contents/MacOS/ScrollingLargeGraph";
+			};
+			name = Debug;
+		};
+		839553B42728047F0087760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58PSC9526Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.objc.ScrollingLargeGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingLargeGraph.app/Contents/MacOS/ScrollingLargeGraph";
+			};
+			name = Release;
+		};
+		839553B62728047F0087760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58PSC9526Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.objc.ScrollingLargeGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ScrollingLargeGraph;
+			};
+			name = Debug;
+		};
+		839553B72728047F0087760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58PSC9526Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.objc.ScrollingLargeGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ScrollingLargeGraph;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839553852728047D0087760E /* Build configuration list for PBXProject "ScrollingLargeGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839553AD2728047F0087760E /* Debug */,
+				839553AE2728047F0087760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839553AF2728047F0087760E /* Build configuration list for PBXNativeTarget "ScrollingLargeGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839553B02728047F0087760E /* Debug */,
+				839553B12728047F0087760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839553B22728047F0087760E /* Build configuration list for PBXNativeTarget "ScrollingLargeGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839553B32728047F0087760E /* Debug */,
+				839553B42728047F0087760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839553B52728047F0087760E /* Build configuration list for PBXNativeTarget "ScrollingLargeGraphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839553B62728047F0087760E /* Debug */,
+				839553B72728047F0087760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839553822728047D0087760E /* Project object */;
+}
